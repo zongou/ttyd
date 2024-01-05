@@ -13,9 +13,9 @@ const clientOptions = {
     rendererType: 'webgl',
     disableLeaveAlert: false,
     disableResizeOverlay: false,
-    enableZmodem: false,
-    enableTrzsz: false,
-    enableSixel: false,
+    enableZmodem: true,
+    enableTrzsz: true,
+    enableSixel: true,
     isWindows: false,
     unicodeVersion: '11',
 } as ClientOptions;
