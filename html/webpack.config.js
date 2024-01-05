@@ -76,7 +76,7 @@ const devConfig = {
         proxy: [
             {
                 context: ['/token', '/ws'],
-                target: 'http://localhost:7681',
+                target: 'http://127.0.0.1:7681',
                 ws: true,
             },
         ],
