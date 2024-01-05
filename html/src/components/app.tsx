@@ -20,8 +20,9 @@ const clientOptions = {
     unicodeVersion: '11',
 } as ClientOptions;
 const termOptions = {
-    fontSize: 13,
-    fontFamily: 'Consolas,Liberation Mono,Menlo,Courier,monospace',
+    fontSize: 14,
+    fontFamily:
+        'Fira Code, Inconsolata, JetBrains Mono, Consolas, DejaVu Sans Mono, Everson Mono, FreeMono, Menlo, Terminal, monospace, Apple Symbols',
     theme: {
         foreground: '#d2d2d2',
         background: '#2b2b2b',
