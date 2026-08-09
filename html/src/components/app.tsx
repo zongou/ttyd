@@ -6,7 +6,7 @@ import type { ITerminalOptions, ITheme } from '@xterm/xterm';
 import type { ClientOptions, FlowControl } from './terminal/xterm';
 
 document.addEventListener('contextmenu', e => {
-    e.preventDefault;
+    e.preventDefault();
 });
 
 const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
